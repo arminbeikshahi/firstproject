@@ -1,0 +1,459 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color:#5F9EA0;
+}
+
+h1{
+color:white;
+padding: 3px;
+margin-top:10px;
+margin-left: 25px;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: 2px 2px 1px gray;
+}
+i{
+float:left;
+font-size: 40px;
+color:white;
+margin-top:10px;
+margin-left:0px;
+padding-left:5px;
+}
+ul{
+  list-style-type: none;
+  width: auto;
+  margin-top: 8px;
+
+
+}
+li{
+    display: inline-block;
+    padding:20px 10px;
+
+}
+a{
+text-align: center;
+text-decoration: none;
+color: white;
+
+}
+a:hover{
+color:yellow;
+}
+h4{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+padding-top:30px;
+font-size: 18px;
+}
+.keshvarha{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px darkgray;
+
+}
+article{
+    border: 3px solid gray;
+    width:300px;
+    margin: 20px;
+    padding:10px;
+    border-radius: 5px;  
+    float: left; 
+}
+h3{
+    text-align: center;
+    text-shadow: 1px 1px 1px darkslategrey;
+}
+button{
+    background-color:skyblue;
+    margin: 2px 2px 2px 2px;
+    padding:1px 1px 1px 1px;
+    width:70px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+a:link , a:visited{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    
+    
+}
+button:hover{
+    background-color: blue;
+}
+.denmark{
+    margin-left: 120px;
+
+}
+.canada{
+    margin-left: 120px;
+}
+.new-zealand{
+    float:left;
+}
+.germany{
+    margin-left: 120px;
+}
+.italy{
+
+    margin-left: 120px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.matn{
+    text-align:center;
+    padding-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.amniatu{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:moshakhasat;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes moshakhasat{
+from{width:0%;}
+to{width:97%;}
+}
+.usa1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.amniat{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.amniatd{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:moshakhasatdenmark;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes moshakhasatdenmark{
+from{width:0%;}
+to{width:95%;}
+}
+.denmark1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.amniatc{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:moshakhasatcanada;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes moshakhasatcanada{
+from{width:0%;}
+to{width:92%;}
+}
+.canada1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.amniatn{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:moshakhasatnewzeleand;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes moshakhasatnewzeleand{
+from{width:0%;}
+to{width:90%;}
+}
+.newzeleand1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.amniatg{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:moshakhasatgermany;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes moshakhasatgermany{
+from{width:0%;}
+to{width:79%;}
+}
+.germany1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.amniati{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:moshakhasatitaly;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes moshakhasatitaly{
+from{width:0%;}
+to{width:79%;}
+}
+.italy1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.rank{
+text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+.ranku{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:usarank;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes usarank{
+from{width:0%;}
+to{width:90%;}
+}
+.usa2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.rankc{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:canadarank;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes canadarank{
+from{width:0%;}
+to{width:90%;}
+}
+.canada2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.rankn{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:newzealandrank;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes newzealandrank{
+from{width:0%;}
+to{width:80%;}
+}
+.newzealand2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.rankd{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:denmarkrank;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes denmarkrank{
+from{width:0%;}
+to{width:79%;}
+}
+.denmark2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.rankg{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:germanyrank;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes germanyrank{
+from{width:0%;}
+to{width:76%;}
+}
+.germany2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.ranki{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+    animation-name:italyrank;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-direction: left;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+}
+@keyframes italyrank{
+from{width:0%;}
+to{width:67%;}
+}
+.italy2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+}
+.sabtenam{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+.name{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width:40%;
+    height:25px;
+}
+.lastname{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width:35%;
+    height:25px;
+
+}
+.tel{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width:39%;
+    height:25px;
+
+}
+.email{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width:39%;
+    height:25px;
+
+}
+.url{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width:36%;
+    height:25px;
+
+}
+.textarea{
+    border: 2px solid gray;
+    border-radius: 5px;
+    
+}
+.ersal{
+color: white;
+text-align: center;
+background-color: green;
+margin-right: 200px;
+
+}
+
+.pakkardan{
+    color: white;
+    text-align: center;
+    background-color:red;
+    margin-right: 50px;
+    
+    }
+    footer{
+        width:100%;
+        height: 100px;
+        background-color:#778899;
+    }
+.icon{
+    text-align: center;
+   
+}
+
+
+
+
+
+
